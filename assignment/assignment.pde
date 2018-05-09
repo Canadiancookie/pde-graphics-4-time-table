@@ -44,13 +44,17 @@ void draw() {
   //text of second column
   textFont(Normal);
   textSize(20);
-  text("Dr. Pineda", width=260, height=25);
+  text("Ms. Lawrence", width=260, height=25);
+  text("Introductory CommTech", width=260, height=50);
   
   text("Mr. Boisvert", width=260, height=150);
+  text("Mathematics 20-3", width=260, height=175);
   
-  text("Ms. Baycroft", width=260, height=275);
+  text("Dr. Pineda", width=260, height=275);
+  text("Introductory Computing", width=260, height=300);
+  text("Science", width=260, height=325);
   
-  text("Ms. Hart", width=260, height=400);
-  
+  text("Ms. Baycroft", width=260, height=400);
+  text("Science 10", width=260, height=425);
   
 }
