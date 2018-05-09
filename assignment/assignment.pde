@@ -41,4 +41,16 @@ void draw() {
   text("Block 3", width=35, height=330);
   text("Block 4", width=35, height=455);
   
+  //text of second column
+  textFont(Normal);
+  textSize(20);
+  text("Dr. Pineda", width=260, height=25);
+  
+  text("Mr. Boisvert", width=260, height=150);
+  
+  text("Ms. Baycroft", width=260, height=275);
+  
+  text("Ms. Hart", width=260, height=400);
+  
+  
 }
