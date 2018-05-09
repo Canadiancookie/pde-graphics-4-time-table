@@ -11,6 +11,13 @@
   String teacher2 = "Mr. Boisvert";
   String teacher3 = "Dr. Pineda";
   String teacher4 = "Ms. Baycroft";
+  
+  //classes
+  String class1 = "Introductory CommTech";
+  String class2 = "Mathematics 20-3";
+  String class3 = "Introductory Computing";
+  String class3alt = "Science";
+  String class4 = "Science 10";
  
   //fonts (part 1)
   PFont Normal;
@@ -52,16 +59,16 @@ void draw() {
   textFont(Normal);
   textSize(20);
   text(teacher1, width=260, height=25);
-  text("Introductory CommTech", width=260, height=50);
+  text(class1, width=260, height=50);
   
   text(teacher2, width=260, height=150);
-  text("Mathematics 20-3", width=260, height=175);
+  text(class2, width=260, height=175);
   
   text(teacher3, width=260, height=275);
-  text("Introductory Computing", width=260, height=300);
-  text("Science", width=260, height=325);
+  text(class3, width=260, height=300);
+  text(class3alt, width=260, height=325);
   
   text(teacher4, width=260, height=400);
-  text("Science 10", width=260, height=425);
+  text(class4, width=260, height=425);
   
 }
